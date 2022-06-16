@@ -41,14 +41,14 @@ div img{
 
 header{
     margin: 0;
-    padding: 15px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    height: 80px;
     display: flex;
     align-items: center;
     color: #fff;
+    width: 100%;
+    padding: 25px;
 }
 
 header .list-items{
@@ -134,4 +134,5 @@ header .menu{
 
 footer{
     text-align: center;
+    padding: 25px;
 }
