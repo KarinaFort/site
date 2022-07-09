@@ -10,13 +10,15 @@ body {
 }
 
 .info{
-    margin-top: 50px;
-    margin-left: 70%;
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 75%;
     margin-right: 4%;
     border: 0;
-    background-color: darkviolet;
-    padding: 15px;
+    background: rgba(150, 0, 255, 0.9);
+    padding: 20px;
     border-radius: 45px;
+    font-size: 18px;
 }
 
 .bg_video {
