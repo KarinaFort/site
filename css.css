@@ -19,7 +19,7 @@ body {
     width: auto;
     height: auto;
     z-index: -1000;
-    background: url(img/bcg1.jpg) no-repeat;
+    background: url(img/fundo.mp4) no-repeat;
     background-size: cover;
 }
 
@@ -50,7 +50,7 @@ div img {
 
 .flex-container a {
     text-decoration: none;
-    color: #fff;
+    color: pink;
 }
 
 header {
