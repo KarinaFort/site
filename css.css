@@ -9,6 +9,15 @@ body {
     color: #fff;
 }
 
+.info{
+    margin-top: 50px;
+    margin-left: 70%;
+    margin-right: 4%;
+    border: 0;
+    background-color: darkviolet;
+    padding: 15px;
+    border-radius: 45px;
+}
 
 .bg_video {
     position: fixed;
