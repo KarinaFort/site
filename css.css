@@ -9,17 +9,6 @@ body {
     color: #fff;
 }
 
-.info{
-    position: fixed;
-    margin-top: 30px;
-    margin-left: 75%;
-    margin-right: 4%;
-    border: 0;
-    background: rgba(150, 0, 255, 0.9);
-    padding: 20px;
-    border-radius: 45px;
-    font-size: 18px;
-}
 
 .bg_video {
     position: fixed;
