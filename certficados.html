@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="css.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/x-icon" href="img/perfil.jpg">
     <title>Portifólio</title>
 </head>
 <body>
@@ -13,31 +14,41 @@
         <source src="/img/fundo.mp4" type="video/mp4">
     </video>
     <header>
-        <div class="flex-container menu">
-         <div><h1><a href="index.html">Karina Forte Graciano</a></h1></div>
-            <ul class="list-items">
-                
-                <li>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/karina-forte-graciano-36689397/" target="_blank">Linkedin</a></li>
-                <li>
-                    <i class="fa-brands fa-github"></i>
-                    <a href="https://github.com/KarinaFort" target="_blank">GitHub</a></li>
-                <li>
-                    <i class="fa-brands fa-instagram"></i>
-                    <a href="https://www.instagram.com/a_fortee/" target="_blank">Instagram</a></li>
-                <li>
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <a href="https://contate.me/KarinaForte" target="_blank">WhatsApp</a></li>
-                <li>
-                    <i class="fa-solid fa-certificate"></i>
-                    <a href="certficados.html">Certificados</a></li>    
-            </ul>
-        </div>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-item">
+                <i class="fa fa-home"></i>
+                <span>Início</span>
+            </a>
+            <a href="https://github.com/KarinaFort" target="_blank" class="navbar-item">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="https://www.linkedin.com/in/karina-forte-graciano-36689397/" target="_blank"  class="navbar-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/a_fortee/" target="_blank" class="navbar-item">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://contate.me/KarinaForte" target="_blank" class="navbar-item">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="certficados.html" target="_blank" class="navbar-item">
+                <i class="fa-solid fa-certificate"></i>
+                <span>Certificados</span>
+            </a>
+        </nav>
     </header>
     
     <main>
-
+        
+        <div class="certificate">
+            <p class="certifiate">
+                Certificados
+            </p>
+        </div>
         <div class="gallery-container">
             <a href="img/certs/00.jpg" class="gallery-items">
                 <img src="img/certs/00.jpg" alt="Chick Hicks">
@@ -130,7 +141,7 @@
 </body>
 <footer>
     <p> &copy; 2022 </p>
-    <p> Desenvolvido poor Karina Forte Graciano</p>
+    <p> Desenvolvido por Karina Forte Graciano</p>
 </footer>
 </html>
 
