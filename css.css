@@ -88,6 +88,10 @@ header .menu {
     width: 300px;
     height: 300px;
     box-align: center;
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
 }
 
 .apresentacao {
@@ -117,7 +121,6 @@ header .menu {
     max-width: 700px;
     margin-top: 25px;
     margin-left: 30px;
-    ;
     padding: 15px;
     font-size: 24px;
 }
@@ -157,3 +160,4 @@ footer {
 .flex-container .menu {
     position: fixed;
 }
+
