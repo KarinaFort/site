@@ -187,4 +187,18 @@ a {
   font-size: 18px;
 }
 
- 
+.linguagens{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 70px));
+  gap: 5px;
+}
+
+.js {
+  width: 95px;
+  margin-top: 20px;
+}
+.outros {
+  width: 55px;
+  margin: 20px;
+}
+
