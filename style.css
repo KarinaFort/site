@@ -91,7 +91,7 @@ div img {
 
 .apresentacao {
   margin-top: 12px;
-  margin-left: 250px;
+  margin-left: 260px;
   margin-right: 250px;
   border: 0;
   border-radius: 45px;
@@ -109,7 +109,7 @@ div img {
 }
 
 .gallery-container {
-  margin-left: 220px;
+  margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -196,9 +196,39 @@ a {
 .js {
   width: 95px;
   margin-top: 20px;
+  transition: transform 0.2s ease-in-out;
 }
 .outros {
   width: 55px;
   margin: 20px;
+  transition: transform 0.2s ease-in-out;
 }
 
+.projetos p {
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #FFF;
+  align-items: center;
+  margin-left: 40%;
+  padding: 45px;
+}
+
+.texto p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  align-items: center;
+}
+
+.caixa {
+  margin-top: 12px;
+  margin-left: 260px;
+  margin-right: 250px;
+  border: 0;
+  border-radius: 45px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 50px;
+  font-size: 15px;
+  color: #FFF;
+}
